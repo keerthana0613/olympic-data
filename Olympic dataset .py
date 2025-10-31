@@ -8,7 +8,6 @@
 
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 from scipy.stats import pearsonr
 txns=pd.read_csv("C:/Users/mammu/Downloads/transaction_data.csv/olympic_data.csv",sep="\t")
 txns.columns = ["ATHLETE","AGE","COUNTRY", "YEAR", "DATE", "TYPE_OF_SPORT", "GOLD_MEDAL", "SILVER_MEDAL", "BRONZE_MEDAL","TOTAL_NO_OF_MEDALS"]
@@ -389,6 +388,7 @@ gold_trends.head()
 
 
 # In[ ]:
+
 
 
 
